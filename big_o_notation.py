@@ -18,9 +18,9 @@ plt.figure(figsize=(10, 6))
 
 # Plot each Big O complexity
 plt.plot(n, O_1, label="$O(1)$")
-plt.plot(n, O_log_n, label="$O(\log n)$")
+# plt.plot(n, O_log_n, label="$O(\log n)$")
 plt.plot(n, O_n, label="$O(n)$")
-plt.plot(n, O_n_log_n, label="$O(n \log n)$")
+# plt.plot(n, O_n_log_n, label="$O(n \log n)$")
 plt.plot(n, O_n_squared, label="$O(n^2)$")
 plt.plot(n, O_n_cubed, label="$O(n^3)$")
 plt.plot(n, O_2_power_n, label="$O(2^n)$")

@@ -1,7 +1,7 @@
 def monotonicDecreasing(nums):
     stack = []
     result = []
-    print(f"Starting ...")
+    print("Starting ...")
     print(f"nums: {nums}")
     print(f"stack: {stack}")
 
@@ -10,7 +10,7 @@ def monotonicDecreasing(nums):
         # While stack is not empty AND top of stack is less than the current element
         print(f"num: {num} ; stack: {stack}")
         # print(f"stack: {stack}")
-        print(f"before while")
+        print("before while")
         t = 0
         while stack and stack[-1] < num:
             print(f"inside while: t: {t}")
@@ -36,6 +36,6 @@ def monotonicDecreasing(nums):
 
 
 # Example usage:
-nums = [3, 1, 4, 1, 5, 9, 2, 6]
-result = monotonicDecreasing(nums)
-print("Monotonic decreasing stack:", result)
+nums_test = [3, 1, 4, 1, 5, 9, 2, 6]
+result_test = monotonicDecreasing(nums_test)
+print("Monotonic decreasing stack:", result_test)
