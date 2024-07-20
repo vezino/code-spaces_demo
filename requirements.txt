@@ -3,3 +3,10 @@ pytest-cov
 pylint
 black
 ipython
+nbval
+ipdb
+matplotlib
+numpy
+textblob
+wikipedia
+fire
