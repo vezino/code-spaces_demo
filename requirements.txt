@@ -10,3 +10,5 @@ numpy
 textblob
 wikipedia
 fire
+fastapi
+uvicorn[standard]
