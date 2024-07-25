@@ -18,7 +18,7 @@ async def add(num1: int, num2: int):
     return {"total": total}
 
 
-@app.get("/wikiphrases/{name}")
+@app.get("/wikiphrase/{name}")
 async def wikiphrase(name: str):
     """Generate NPL noun phrases from wikipedia name"""
 
